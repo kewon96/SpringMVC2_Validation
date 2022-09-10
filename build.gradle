@@ -23,7 +23,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'dev.akkinoc.util:yaml-resource-bundle:2.4.1'
 	// https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator
-	implementation group: 'org.hibernate.validator', name: 'hibernate-validator', version: '7.0.1.Final'
+//	implementation group: 'org.hibernate.validator', name: 'hibernate-validator', version: '7.0.1.Final'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
 
 
 	compileOnly 'org.projectlombok:lombok'
